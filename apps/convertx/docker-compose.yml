@@ -1,0 +1,19 @@
+services:
+  convertx:
+    container_name: convertx
+    image: ghcr.io/c4illin/convertx:v0.17.0
+    restart: unless-stopped
+    ports:
+      - "${APP_PORT}:3000"
+    environment:
+      - JWT_SECRET=41fdd66a-6ce4-40b7-8bf4-a94bf7090660
+      - HTTP_ALLOWED=true
+    volumes:
+      - ${APP_DATA_DIR}/data:/app/data
+    labels:
+      runtipi.managed: "true"
+    networks:
+      - tipi_main_network
+networks:
+  tipi_main_network:
+    external: true
