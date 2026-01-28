@@ -1,0 +1,12 @@
+{
+  "$schema": "../dynamic-compose-schema.json",
+  "schemaVersion": 2,
+  "services": [
+    {
+      "name": "bentopdf",
+      "image": "bentopdf/bentopdf-simple:sha-fb8c8c0",
+      "isMain": true,
+      "internalPort": 8080
+    }
+  ]
+}
