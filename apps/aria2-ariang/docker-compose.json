@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 2,
+  "services": [
+    {
+      "name": "aria2-ariang",
+      "image": "hurlenko/aria2-ariang:1.3.13",
+      "internalPort": 8080,
+      "isMain": true
+    }
+  ],
+  "$schema": "../dynamic-compose-schema.json"
+}

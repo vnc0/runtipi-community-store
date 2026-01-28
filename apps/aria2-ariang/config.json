@@ -1,0 +1,21 @@
+{
+  "name": "Aria2 AriaNg",
+  "available": true,
+  "port": 8080,
+  "exposable": true,
+  "dynamic_config": true,
+  "id": "aria2-ariang",
+  "description": "Aria2 is a lightweight multi-protocol & multi-source command-line download utility. It supports HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink. AriaNg is a modern web frontend making aria2 easier to use with a responsive interface that works on desktop and mobile devices.",
+  "tipi_version": 1,
+  "version": "1.3.13",
+  "categories": ["utilities"],
+  "short_desc": "Aria2 download manager with AriaNg web UI",
+  "author": "hurlenko",
+  "source": "https://github.com/mayswind/AriaNg",
+  "website": "https://hub.docker.com/r/hurlenko/aria2-ariang",
+  "supported_architectures": ["amd64", "arm64"],
+  "created_at": 1738091662000,
+  "updated_at": 1738091662000,
+  "$schema": "../app-info-schema.json",
+  "min_tipi_version": "4.5.0"
+}

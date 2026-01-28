@@ -1,0 +1,22 @@
+services:
+  aria2-ariang:
+    container_name: aria2-ariang
+    image: hurlenko/aria2-ariang:latest
+    restart: unless-stopped
+    ports:
+      - "${APP_PORT}:8080"
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - RPC_SECRET=NOBODYKNOWSME
+      - ARIA2RPCPORT=443
+    volumes:
+      - ${APP_DATA_DIR}/data:/aria2/data
+      - ${APP_DATA_DIR}/conf:/aria2/conf
+    labels:
+      runtipi.managed: "true"
+    networks:
+      - tipi_main_network
+networks:
+  tipi_main_network:
+    external: true
