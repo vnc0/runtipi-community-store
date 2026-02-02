@@ -1,0 +1,1 @@
+Perplexica is an intelligent AI-powered search and question-answering engine that redefines the way information is discovered and understood. Instead of providing a long list of links, it processes data from multiple sources, interprets the meaning behind each query, and generates clear, structured, and conversational responses.

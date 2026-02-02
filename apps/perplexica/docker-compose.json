@@ -1,0 +1,22 @@
+{
+  "$schema": "../dynamic-compose-schema.json",
+  "schemaVersion": 2,
+  "services": [
+    {
+      "name": "perplexica",
+      "image": "itzcrazykns1337/perplexica:v1.11.2@sha256:6d03063aacc8b4e85e1fc95275d77a0afef6f4136c797727464d31bf73ef3439",
+      "internalPort": 3000,
+      "isMain": true,
+      "volumes": [
+        {
+          "hostPath": "/app/data/app_data",
+          "containerPath": "/home/perplexica/data"
+        },
+        {
+          "hostPath": "/app/data/uploads",
+          "containerPath": "/home/perplexica/uploads"
+        }
+      ]
+    }
+  ]
+}
