@@ -1,0 +1,1 @@
+Enhanced ChatGPT Clone with support for multiple AI providers including Anthropic, AWS Bedrock, OpenAI, Azure, Google, Vertex AI, and custom endpoints. Features AI agents, code interpreter, web search, artifacts, speech synthesis, multimodal support, secure multi-user authentication, and extensive customization options.
