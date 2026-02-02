@@ -1,0 +1,1 @@
+cobalt is a powerful and intuitive media downloader built to simplify the process of saving your favorite content from the web. Download videos, music, images, and other media without ads, trackers, or paywalls with a streamlined, privacy-focused experience.
