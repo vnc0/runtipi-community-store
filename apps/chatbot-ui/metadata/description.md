@@ -1,0 +1,1 @@
+ChatBot UI is an advanced chatbot kit for OpenAI's chat models aiming to mimic ChatGPT's interface and functionality. Simply add your OpenAI API key and start chatting! Supports both GPT-3.5 and GPT-4 models with local conversation storage.

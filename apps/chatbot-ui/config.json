@@ -1,0 +1,20 @@
+{
+  "name": "ChatBot UI",
+  "available": true,
+  "port": 10101,
+  "exposable": true,
+  "dynamic_config": true,
+  "id": "chatbot-ui",
+  "description": "ChatBot UI is an advanced chatbot kit for OpenAI's chat models aiming to mimic ChatGPT's interface and functionality. Simply add your OpenAI API key and start chatting! This version of ChatBot UI supports both GPT-3.5 and GPT-4 models. Conversations are stored locally within your browser. You can export and import conversations to safeguard against data loss.",
+  "tipi_version": 1,
+  "version": "2023.04.20",
+  "categories": ["ai"],
+  "short_desc": "ChatGPT but better",
+  "author": "mckaywrigley",
+  "source": "https://github.com/mckaywrigley/chatbot-ui",
+  "website": "https://github.com/mckaywrigley/chatbot-ui",
+  "supported_architectures": ["amd64", "arm64"],
+  "created_at": 1738532477000,
+  "updated_at": 1738532477000,
+  "$schema": "../app-info-schema.json"
+}

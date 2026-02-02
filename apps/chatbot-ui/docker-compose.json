@@ -1,0 +1,12 @@
+{
+  "$schema": "../dynamic-compose-schema.json",
+  "schemaVersion": 2,
+  "services": [
+    {
+      "name": "chatbot-ui",
+      "image": "ghcr.io/mckaywrigley/chatbot-ui:main@sha256:569dffe6043136f03de86bde38453a58d05150f29476239dc1da4ce2573b4101",
+      "internalPort": 3000,
+      "isMain": true
+    }
+  ]
+}
