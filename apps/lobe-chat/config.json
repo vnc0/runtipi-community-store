@@ -1,0 +1,22 @@
+{
+  "name": "Lobe Chat",
+  "available": true,
+  "port": 7455,
+  "exposable": true,
+  "dynamic_config": true,
+  "id": "lobe-chat",
+  "description": "An open-source, modern-design ChatGPT/LLMs UI/Framework. Supports speech-synthesis, multi-modal, and extensible (function call) plugin system. One-click deployment of your private OpenAI ChatGPT/Claude/Gemini/Groq/Ollama chat application. To get started, add your OpenAI API key in the settings or configure one of the many other providers.",
+  "tipi_version": 1,
+  "version": "1.143.2",
+  "categories": ["ai"],
+  "short_desc": "An open-source, modern-design AI chat framework",
+  "author": "LobeHub",
+  "source": "https://github.com/lobehub/lobe-chat",
+  "website": "https://lobehub.com/",
+  "supported_architectures": ["amd64", "arm64"],
+  "created_at": 1738532477000,
+  "updated_at": 1738532477000,
+  "$schema": "../app-info-schema.json",
+  "uid": 1000,
+  "gid": 1000
+}

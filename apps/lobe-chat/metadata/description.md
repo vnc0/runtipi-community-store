@@ -1,0 +1,1 @@
+An open-source, modern-design ChatGPT/LLMs UI/Framework. Supports speech-synthesis, multi-modal, and extensible plugin system. One-click deployment of your private OpenAI ChatGPT/Claude/Gemini/Groq/Ollama chat application.
